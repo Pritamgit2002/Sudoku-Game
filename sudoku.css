@@ -1,0 +1,263 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #acf5e2;
+    
+}
+
+
+
+hr {
+    text-align: center;
+    width: 1000px;
+    border-top: 2px solid red;
+
+}
+
+
+#errors {
+    text-align: center;
+    color: rgb(209, 34, 34);
+    text-shadow: 0 0 3px #f02a2ab5;
+}
+
+#er {
+    text-align: center;
+    color: black;
+}
+
+#dev {
+    text-align: center;
+    color: darkred;
+}
+
+#board {
+    width: 447px;
+    height: 450px;
+
+    background-color: crimson;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.tile {
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    border: 1px solid yellowgreen;
+
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#digits {
+    text-align: center;
+    width: 450px;
+    height: 50px;
+
+    background-color: blueviolet;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number {
+    text-align: center;
+    width: 44px;
+    height: 44px;
+    border: 1px solid black;
+    margin: 2px;
+
+    /* Text */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-selected {
+    background-color: grey;
+}
+
+.tile-start {
+    background-color: cyan;
+}
+
+.horizantal-line {
+    border-bottom: 1px solid black;
+}
+
+.vertical-line {
+    border-right: 1px solid black;
+}
+
+/* #startstop,#reset {
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    filter: blur(0.55px);
+    background: radial-gradient();
+}
+
+
+#startstop:active {
+    background-color: red;
+}
+
+#reset:active {
+    background-color: crimson;
+} */
+
+.button-27 {
+
+    background-color: #04AA6D;
+    color: #ffffff;
+    border-color: #04AA6D;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    border: 3px solid olivedrab;
+    border-radius: 15%;
+    margin-top: -670px;
+    cursor: pointer;
+    margin-left: 16px;
+}
+
+.back{
+    display: flex;
+    width: 20%;
+    background: red;
+}
+
+/* .button-27:disabled {
+    pointer-events: none;
+}*/
+
+.button-27:hover {
+    box-shadow: rgba(2, 16, 1, 0.644) 0 8px 15px;
+    transform: translateY(-2px);
+    color: rgb(109, 34, 49);
+}
+
+/*.button-27:active {
+    box-shadow: none;
+    transform: translateY(0);
+} */
+
+.button-64 {
+
+    background-color: #04AA6D;
+   
+    color: #ffffff;
+    border-color: #04AA6D;
+    width: 120px;
+    height: 45px;
+    text-align: center;
+    font-size: 15px;
+    border: 3.5px solid olivedrab;
+    border-radius: 15%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.button-64:hover{
+    box-shadow: rgba(124, 8, 10, 0.6) 0 8px 15px;
+    transform: translateY(-2px);
+    color: rgb(109, 34, 49);
+}
+#plus{
+    /*background: red;*/
+    display: flex;
+    width: 100%;
+    height: 5%;
+    justify-content: center;  
+    margin-top: 2px;  
+    
+}
+
+#demo{
+    display:flex;
+    /*background: black;*/
+    width: 100%;
+    height: 28px;
+    color: rgb(40, 172, 28);
+    justify-content:center;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    margin-top: 5px;    
+}
+
+#pro{
+    display: flex;
+    /*background-color: black;*/
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgba(43, 29, 196, 0.82);
+    border-radius: 50%;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+#pro:hover{
+    border-color: red;
+    box-shadow: rgba(124, 8, 10, 0.6) 0 8px 15px;
+}
+
+.logo{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url('logo.jpg');
+    max-width: 50px;
+    max-height: 50px;
+}
+
+img{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+}
+/*.pro{
+    /*justify-content: center;
+    white-space:initial;
+    width: 100%;
+    height: 60px;
+    background: gray;
+    display: flex;
+    margin-left: 0%;
+    border: 3px solid black;
+    text-align: center;
+}
+
+*/
+
+h1 {
+    text-align: center;
+    margin-top: -45px;
+    white-space: nowrap;
+    
+}
+
+a{  
+    
+    color: rgb(15, 25, 105);
+    margin-right: 1cm;
+    font-size: 12px;
+    stroke: #04AA6D;
+}
+
+a:hover{
+    text-decoration: underline;
+    color:purple;
+}
